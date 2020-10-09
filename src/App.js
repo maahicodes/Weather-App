@@ -7,7 +7,7 @@ import Weather from './components/weather';
 import  City from './components/weathercity';
    
 //fetch the data from this api call(need to call this link for current data)
-const Api_key = '155275f418ee3f2f9d58515f7267f597';
+const Api_key = '<your api>';
 
 
 class App extends React.Component {
