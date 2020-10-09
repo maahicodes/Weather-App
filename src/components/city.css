@@ -1,0 +1,50 @@
+form { margin-top: 3rem; }
+
+form input[name="city"],
+form input[name="country"] {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+}
+
+form input:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.form-control::placeholder { color: whitesmoke; }
+
+form input, .container{
+ color: white !important;
+}
+
+.btn {
+    background: #fa9c5c;
+    border: none;
+}
+.btn:focus { box-shadow: none !important; }
+
+.alert {
+    background: #fa9c5c;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .container { text-align: center; }
+    form { margin: 20px; }
+    .btn { margin: 30px; }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        text-align: center;
+        width: 80%;
+        padding: none;
+     }    
+}
+@media screen and (max-width: 400px) {
+  .alert { font-size: 12px;}
+}
